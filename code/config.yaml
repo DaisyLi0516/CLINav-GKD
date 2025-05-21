@@ -1,0 +1,11 @@
+data_dir: "data"
+train_label: "labels/MC6D_train.mat"
+val_label: "labels/MC6D_val.mat"
+test_label: "labels/MC6D_test.mat"
+batch_size: 8
+epochs: 30
+learning_rate: 1e-4
+step_size: 10
+output_dim: 512
+pretrained: False
+checkpoint: "checkpoints/student.pth"
