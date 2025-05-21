@@ -1,0 +1,33 @@
+This repository implements knowledge distillation from the CLIP model to a ResNet-50 based student encoder for echocardiography probe navigation.
+
+## Installation
+```bash
+git clone https://github.com/yourusername/clnav_gkd_distillation.git
+cd clnav_gkd_distillation
+pip install -r requirements.txt
+```
+
+## Configuration
+All hyperparameters and paths are defined in `config.yaml`.
+
+## Usage
+
+### Training
+```bash
+python scripts/train.py --config config.yaml
+```
+
+### Evaluation
+```bash
+python scripts/evaluate.py --config config.yaml
+```
+
+## Project Layout
+- `data/`         Dataset loader and annotation logic
+- `models/`       Student encoder based on ResNet-50
+- `utils/`        Logging and metrics
+- `scripts/`      Training and evaluation entry points
+- `tests/`        Unit tests for core modules
+
+## License
+MIT License
