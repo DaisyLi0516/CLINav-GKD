@@ -2,4 +2,8 @@ At this stage, we have uploaded a portion of the Q-dataset, which includes both 
 
 In addition, we have provided partial scan-level test data from selected subjects in the CLINav-GKD test set, along with an example of the corresponding annotations.
 
+The test dataset comprises multiple standard echocardiographic views from different subjects. For each view type, both high-quality standard views and low-quality non-standard views are included. Importantly, both the training and test data were collected by frame-by-frame sampling from continuous ultrasound video sequences, preserving the temporal continuity of real clinical scanning.
+
+To further illustrate the data acquisition process, we also provide a sample of the original ultrasound video recordings under the data_video_demo directory.
+
 Due to GitHub's upload size limitations, we are currently able to share only a subset of the full dataset. Once the CLINav-GKD paper is officially accepted by MICCAI, we will release the complete dataset and annotations via Google Drive and Baidu Netdisk.
