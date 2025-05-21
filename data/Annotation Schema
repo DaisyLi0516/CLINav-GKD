@@ -1,0 +1,17 @@
+Each cardiac ultrasound frame is annotated with the following information:
+
+View type c: One of the four standardized echocardiographic views: PLAX, A2C, A3C, A4C.
+
+Translation direction m: Probe translation direction in the 3D coordinate space, classified into:
+{others, feet, head, chest, back, upward, downward}.
+
+Rotation direction r: Probe rotation direction, generalized into:
+{others, left, right, up, down, clockwise, counterclockwise}.
+
+The others category in both translation and rotation indicates that the probe remains stationary along that axis.
+
+Each annotation thus describes a frame as a triplet: (view type, translation, rotation).
+For example: (PLAX, head, left) refers to a PLAX view with the probe moving toward the patient’s head and rotating to the left.
+
+The 3D coordinate system used to define these directions is aligned with the motion capture system and standardized relative to the PLAX plane.
+
