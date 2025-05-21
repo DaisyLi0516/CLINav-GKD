@@ -1,6 +1,0 @@
-Dataset Overview
-At this stage, we have uploaded a portion of the Q-dataset, which includes both high-quality and low-quality echocardiographic views.
-
-In addition, we have provided partial scan-level test data from selected subjects in the CLINav-GKD test set, along with an example of the corresponding annotations.
-
-Due to GitHub's upload size limitations, we are currently able to share only a subset of the full dataset. Once the CLINav-GKD paper is officially accepted by MICCAI, we will release the complete dataset and annotations via Google Drive and Baidu Netdisk.
