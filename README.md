@@ -2,8 +2,9 @@
 This repository contains the dataset, code, and implementation details associated with our MICCAI 2025 paper.
 
 
+![图片1](https://github.com/user-attachments/assets/d2961cb2-b48b-4314-9ba0-40e960a89d8a)
 
-![image](https://github.com/user-attachments/assets/c70bc492-ea32-488c-babd-caa6177ac6b0)
+
 ![image](https://github.com/user-attachments/assets/04c03942-5a38-48f3-aa17-9ecaca806bd9)
 
 
