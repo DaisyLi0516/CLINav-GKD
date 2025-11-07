@@ -1,5 +1,5 @@
 # CLINav-GKD
-This repository contains the dataset, code, and implementation details associated with our MICCAI 2025 paper.
+This repository contains the dataset, code, and implementation details associated with our BIBM 2025 paper.
 
 
 ![图片1](https://github.com/user-attachments/assets/d2961cb2-b48b-4314-9ba0-40e960a89d8a)
